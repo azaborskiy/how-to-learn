@@ -1,15 +1,7 @@
-/**.header, .header__title, h1, .logo, .header__subtitle, .header__link, .header__main-illustration, .header__square-pic {
-  border: 1px solid red;
-}**/
-
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -31,7 +23,6 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
   background-color: #f2f2f2;
   display: flex;
   align-items: center;
@@ -72,7 +63,6 @@
   z-index: 1;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   background-color: #2f80ed;
   height: 568px;
@@ -81,10 +71,6 @@
   right: 0;
   bottom: 140px;
 }
-
-/**.description, .two-columns, .two-columns__brief, .two-columns__main-text, .two-columns__paragraph {
-  border: 1px solid blue;
-}**/
 
 .description {
   padding: 100px 0;
@@ -127,10 +113,6 @@
 .two-columns__paragraph:last-of-type {
   margin-bottom: 0;
 }
-
-/**.digits, .section-title, .section-subtitle, .table, .list, .table__cell {
-border: 1px solid orange;
-}**/
 
 .digits {
   padding-bottom: 100px;
@@ -190,10 +172,6 @@ border: 1px solid orange;
   font-size: 18px;
   font-weight: normal;
 }
-
-/**.feynman, .feynman__title, .feynman__subtitle, .feynman__link {
-  border: 1px solid slateblue;
-}**/
 
 .feynman {
   background-color: #f2f2f2;
@@ -275,13 +253,8 @@ border: 1px solid orange;
   z-index: -1;
 }
 
-.footer, .logo, .footer__columns, .footer__column_content-copyright, .footer__author, .footer__column_content-info, .footer__column-heading, .footer__column-link {
-  border: 1px solid yellow;
-}
-
 .footer {
-  background-color: brown;
-  min-height: 350px;
+  background-color: #000000;
   padding-top: 60px;
   padding-bottom: 40px;
 }
@@ -292,6 +265,7 @@ border: 1px solid orange;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  min-height: 350px;
 }
 
 .footer__column_content-copyright {
@@ -317,7 +291,7 @@ border: 1px solid orange;
 }
 
 .footer__column_content-info {
-
+  /** не знаю как использовать **/
 }
 
 .footer__column-heading {
@@ -329,17 +303,21 @@ border: 1px solid orange;
 }
 
 .footer__column-links {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
   list-style: none;
   padding: 0;
   margin: 0 0 16px 0;
 }
 
 .footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
   text-decoration: none;
   color: #ffffff;
+}
+
+.footer__column_content-social {
+  /** не знаю как использовать **/
 }
 
 .footer__social-icon {
