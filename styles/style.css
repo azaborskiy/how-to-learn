@@ -8,7 +8,6 @@
 .logo {
   background-repeat: no-repeat;
   width: 183px;
-  height: 32px;
 }
 
 .logo_place_header {
@@ -17,6 +16,7 @@
   top: 30px;
   left: 64px;
   z-index: 4;
+  height: 32px;
 }
 
 .header {
@@ -148,10 +148,6 @@
   padding: 0;
 }
 
-.table__text:last-of-type {
-  margin-bottom: 0;
-}
-
 .table__cell {
   padding: 0;
   margin-top: 60px;
@@ -164,16 +160,16 @@
  font-size: 24px;
  font-weight: bold;
  padding: 0;
- margin: 0;
+ margin-bottom: 20px;
+ margin-top: 0;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  list-style: none;
-  margin-bottom: 20px;
   margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .feynman {
@@ -214,6 +210,7 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  text-decoration: none;
 }
 
 .kaufman {
@@ -282,6 +279,7 @@
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
+  height: 35px;
 }
 
 .footer__author {
